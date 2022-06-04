@@ -1,0 +1,60 @@
+
+  h1 {
+    text-align: center;
+    background-color: cornsilk;
+  }
+
+.main-container {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+  gap: 5rem;
+}
+.container {
+  width: 100px;
+  height: 100%;
+  display: grid;
+  background-color: azure;
+  grid-template-rows: repeat(3,1fr);
+   border: 1px solid black;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.draggable {
+  cursor: move;
+  box-sizing: border-box;
+   width: 100px;
+  height: 100px;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
+
+#green {
+ background-color:rgb(109,135,101); 
+  border: 1px solid rgb(66, 85, 60);
+}
+#orange {
+ background-color:rgb(250,104,16); 
+ border: 1px solid rgb(196, 86, 18);
+}
+#pink {
+ background-color:rgb(223,171,195); 
+ border: 1px solid rgb(178, 125, 150);
+}
+#yellow {
+  background-color: rgb(240,162,35);
+  border: 1px solid rgb(173, 120, 35);
+}
+#violet  {
+  background-color: rgb(117,96,136);
+  border: 1px solid rgb(88, 67, 107);
+}
+#sky {
+  background-color: rgb(176,227,230);
+  border: 1px solid rgb(110, 169, 173);
+}
