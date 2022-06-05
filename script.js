@@ -3,7 +3,6 @@ const containers = document.querySelectorAll('.container')
 
 let colorId;
 let colorArray = [];
-let ifContainable = Boolean;
 
 draggables.forEach(draggable => {
 
@@ -84,5 +83,5 @@ function getDragAfterElement(container, y) {
     } else {
       return closest
     }
-  }, { offset: Number.NEGATIVE_INFINITY }).element //to define Most closest element's  axis
+  }, { offset: Number.NEGATIVE_INFINITY }).element //to define Most closest element's axis
 }
